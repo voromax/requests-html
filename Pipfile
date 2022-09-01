@@ -12,6 +12,7 @@ parse = "*"
 "w3lib" = "*"
 pyppeteer = "*"
 "rfc3986" = "*"
+requests-html = "*"
 
 [dev-packages]
 twine = "*"
@@ -25,4 +26,3 @@ white = "*"
 
 [scripts]
 tests = "pytest -v -m 'not internet' "
-
